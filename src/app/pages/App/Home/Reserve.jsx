@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState, useEffect, useContext } from "react";
-import { MyContext } from "../../../../Client/src/context/MyContext";
+import { MyContext } from "../../../context/MyContext";
 
 const Reserve = (props) => {
   const [className, setClassName] = useState("");
