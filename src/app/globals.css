@@ -26,3 +26,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.hero {
+  background: url('/back_n2.png') center / cover no-repeat;
+  background-attachment: fixed;      /* desktop effect stays */
+}
