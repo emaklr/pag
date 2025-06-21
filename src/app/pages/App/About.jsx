@@ -1,6 +1,6 @@
-import Header from "./pages/App/Header";
-import Footer from "./pages/App/Footer";
-import Step from "./pages/App/Home/Step";
+import Header from "./Header";
+import Footer from "./Footer";
+import Step from "./Home/Step";
 
 const About = () => {
   return (

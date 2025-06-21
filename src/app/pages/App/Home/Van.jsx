@@ -3,7 +3,7 @@ import Client from "./Clients";
 import Step from "./Step";
 import ChooseUs from "./ChooseUs";
 import Testimonial from "./Testimonial";
-import BasicAccordion from "./Faq";
+import BasicAccordion from "./Faq"//
 import MobileApp from "./MobileApp";
 import Footer from "../Footer";
 

@@ -7,7 +7,7 @@ const MobileApp = () => {
           <p>for faster, easier booking and exclusive deals.</p>
           <div className="btn-cont">
             <button>
-              <i class="fa-brands fa-apple"></i>
+              <i className="fa-brands fa-apple"></i>
               <div>
                 <p>download on the</p>
                 <p>Apple Store</p>

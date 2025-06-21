@@ -116,7 +116,7 @@ const Header = () => {
           </Button>
           <div>
             <i className="fa-regular fa-circle-user account"></i>
-            <i class="fa-solid fa-angle-up"></i>
+            <i className="fa-solid fa-angle-up"></i>
           </div>
         </div>
       </div>

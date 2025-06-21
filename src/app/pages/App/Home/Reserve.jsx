@@ -1,11 +1,12 @@
+"use client"
 import axios from "axios";
 import { useState, useEffect, useContext } from "react";
-import { MyContext } from "../../../../Client/src/context/MyContext";
+import { MyContext } from '../../../../Context/MyContext';
 
 const Reserve = (props) => {
   const [className, setClassName] = useState("");
   const [price, setPrice] = useState("");
-  const { handleCancel, handleReserve } = useContext(MyContext);
+  const { handleCancel, handleReserve } = useState(MyContext);
   const [category, setCategory] = useState("");
   const [car, setCar] = useState("");
   const [pickupLoc, setPickupLoc] = useState("");
@@ -156,7 +157,7 @@ const Reserve = (props) => {
         </div>
         <div className="reserve-child2">
           <div>
-            <i class="fa-solid fa-circle-info"></i>
+            <i className="fa-solid fa-circle-info"></i>
             <p className="upon_msg">
               Upon completing this reservation, you will receive:{" "}
             </p>

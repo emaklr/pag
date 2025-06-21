@@ -1,3 +1,4 @@
+"use client";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 
@@ -39,19 +40,19 @@ const Footer = () => {
           the perfect car to meet your needs.
         </p>
         <div className="info-cont">
-          <i class="fa-solid fa-square-phone"></i>
+          <i className="fa-solid fa-square-phone"></i>
           <p>(123) -456-789</p>
         </div>
         <div className="info-cont">
-          <i class="fa-regular fa-envelope"></i>
+          <i className="fa-regular fa-envelope"></i>
           <p>info@ritewheel.com</p>
         </div>
 
         <div className="social-cont">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-telegram"></i>
-          <i class="fa-brands fa-youtube"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-telegram"></i>
+          <i className="fa-brands fa-youtube"></i>
         </div>
       </div>
       <div className="footer-childs">

@@ -224,7 +224,7 @@ const Car = (props) => {
       <Step />
       <ChooseUs />
       <Testimonial />
-      <BasicAccordion />
+   //   <BasicAccordion />
       <MobileApp />
       <Footer />
     </div>

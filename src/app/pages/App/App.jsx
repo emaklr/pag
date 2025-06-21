@@ -2,7 +2,7 @@ import Home from "./Home";
 import Vehicles from "./Vehicles";
 import About from "./About";
 import Contact from "./Contact";
-import { MyProvider } from "../context/MyContext";
+import { MyProvider } from "/MyContext";
 import { Route, Routes } from "react-router-dom";
 import { StyledEngineProvider } from "@mui/material/styles";
 import AOS from "aos";
