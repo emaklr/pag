@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import url("/style.css");
+@import "../../public/style.css";
 
 :root {
   --background: #ffffff;

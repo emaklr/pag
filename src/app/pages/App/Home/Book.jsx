@@ -1,3 +1,4 @@
+"use client"
 import { useState, useContext, useEffect } from "react";
 import axios from "axios";
 import { MyContext } from '../../../../Context/MyContext';
@@ -10,7 +11,7 @@ const Book = () => {
     loading,
     handleLoading,
     isReserveClicked,
-  } = (MyContext);
+  } = useContext(MyContext);
 
   const [formData, setFormData] = useState({
     category: "",

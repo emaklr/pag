@@ -6,7 +6,7 @@ import { MyContext } from '../../../../Context/MyContext';
 const Reserve = (props) => {
   const [className, setClassName] = useState("");
   const [price, setPrice] = useState("");
-  const { handleCancel, handleReserve } = useState(MyContext);
+  const { handleCancel, handleReserve } = useContext(MyContext);
   const [category, setCategory] = useState("");
   const [car, setCar] = useState("");
   const [pickupLoc, setPickupLoc] = useState("");
@@ -148,7 +148,7 @@ const Reserve = (props) => {
 
   return (
     <div
-      style={{ display: props.context ? "flex" : "none" }}
+      style={{ display: props.isButtonClicked ? "flex" : "none" }}
       className="reserve-cont"
     >
       <div className="reserve">
