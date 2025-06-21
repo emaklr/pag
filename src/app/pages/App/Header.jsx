@@ -14,8 +14,7 @@ const Header = () => {
       <div className="container-fluid nav-cont">
         <div className="nav-child1">
           <Link className="navbar-brand" href="/">
-            <img className="logo logo1" src="nova.svg" alt="" />
-            <img className="logo logo2" src="tire.svg" alt="" />
+            <img className="logo" src="ritwheel.jpg" alt="RiteWheel logo" />
           </Link>
         </div>
 
