@@ -52,7 +52,7 @@ const Products = () => {
           <div className="cars1-topic">
             <h1>FEATURED CARS</h1>
             <img src="hr.svg" alt="" />
-            <p>“Nova's Special Picks for Seamless City Driving.”</p>
+            <p>“RiteWheel’s Special Picks for Seamless City Driving.”</p>
           </div>
 
           <div className="cars1-main">

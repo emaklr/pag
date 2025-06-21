@@ -13,7 +13,7 @@ const About = () => {
           <h1>About Us</h1>
           <p>
             <b>Welcome to Ritewheel autos</b>, where innovation drives our passion for
-            redefining the future of mobility. At <b>Nova</b> , we blend{" "}
+              redefining the future of mobility. At <b>RiteWheel</b> , we blend{" "}
             <b>cutting-edge technology</b> to excellence to deliver a driving
             experience that transcends expectations.
           </p>
@@ -28,9 +28,9 @@ const About = () => {
             RiteWheel redefine the driving experience with advanced electric
             propulsion, ensuring eco-friendly performance. Their sleek,
             aerodynamic design not only enhances fuel efficiency but also
-            captivates with a modern aesthetic. The future unfolds with Nova's
+              captivates with a modern aesthetic. The future unfolds with RiteWheel's
             smart connectivity suite, seamlessly weaving navigation,
-            entertainment, and interaction. Elevate your drive with Nova, where
+              entertainment, and interaction. Elevate your drive with RiteWheel, where
             innovation meets style for an unparalleled automotive journey.
           </p>
           <div className="unique-cont">

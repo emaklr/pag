@@ -9,7 +9,7 @@ const Vehicles = () => {
       <img className="vh_bg1" src="back_n.png" alt="" />
         <div className="vh-topic-cont">
           <h1>Vehicles</h1>
-          <p>Explore wide range of vehicles from Nova</p>
+          <p>Explore wide range of vehicles from RiteWheel</p>
           <img src="hr.svg" alt="" />
         </div>
         <div className="vh-main-cont">
@@ -21,12 +21,12 @@ const Vehicles = () => {
               <img src="vh4.png" alt="" />
             </div>
             <div className="vh-descrp-cont">
-              <h1>Nova vehicles</h1>
+              <h1>RiteWheel vehicles</h1>
               <p>
-                Explore Nova's Vehicles Page for a curated collection of sleek
+                Explore RiteWheel's Vehicles Page for a curated collection of sleek
                 sedans, SUVs, high-performance sports cars, eco-friendly
                 electric/hybrid vehicles, family-friendly minivans, compact city
-                cars, and powerful trucks. Nova ensures you find the perfect
+                cars, and powerful trucks. RiteWheel ensures you find the perfect
                 ride for your lifestyle.
               </p>
               <ul>
@@ -36,12 +36,12 @@ const Vehicles = () => {
                   driving.
                 </li>
                 <li>
-                  <b>Aerodynamic Design:</b> Nova vehicles showcase a
+                  <b>Aerodynamic Design:</b> RiteWheel vehicles showcase a
                   fuel-efficient, aerodynamic design for a modern and visually
                   striking aesthetic.
                 </li>
                 <li>
-                  <b>Connectivity Suite:</b> Nova's futuristic connectivity
+                  <b>Connectivity Suite:</b> RiteWheel's futuristic connectivity
                   suite seamlessly integrates navigation, entertainment, and
                   interaction for an enhanced driving experience.
                 </li>

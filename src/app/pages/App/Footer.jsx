@@ -88,7 +88,7 @@ const Footer = () => {
           <p>Subscribed succesfully!</p>
         </div>
       </div>
-      <p className="copy">©2023, Nova. All rights reserved.</p>
+      <p className="copy">©2023, RiteWheel. All rights reserved.</p>
     </div>
   );
 };
