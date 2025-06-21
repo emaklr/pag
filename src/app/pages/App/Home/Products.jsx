@@ -10,7 +10,7 @@ import { MyContext } from '../../../../Context/MyContext';
 
 const Products = () => {
   /* -------- global UI state from context ---------- */
-  const { isButtonClicked } = useState(MyContext);   // <— now in scope
+  const { isButtonClicked } = useContext(MyContext);   // <— now in scope
 
   /* -------- local click-animation state ----------- */
   const [clickedItems, setClickedItems] = useState({
